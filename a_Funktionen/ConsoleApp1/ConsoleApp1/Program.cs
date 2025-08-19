@@ -9,8 +9,7 @@
             Console.WriteLine(zahl); 
             zahl = MyMath.Calc_kgV(12, 16);
             Console.WriteLine(zahl);
-            Console.WriteLine(ShowResult("ggT", 12, 16, MyMath.Calc_ggT(12, 16)));
-
+            ShowResult("ggT", 12, 16, MyMath.Calc_ggT(12, 16));
         }
 
         private static void ShowResult(string s, int a, int b, int r)
