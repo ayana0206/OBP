@@ -42,10 +42,13 @@
 
         }
 
+        // Aufgabe 5
         private static void ShowResult(string s, int a, int b, int r)
         {
             Console.WriteLine($"{(s == "ggT"?"ggT":"kgV")} von {a} und {b} ist {r}");
         }
+
+        // Aufgabe 4
         private static int ReadInt()
         {
             int i = 0;
