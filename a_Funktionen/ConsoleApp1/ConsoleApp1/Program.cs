@@ -11,13 +11,26 @@
             Console.WriteLine(zahl);
             ShowResult("ggT", 12, 16, MyMath.Calc_ggT(12, 16));
 
-            // Anwendung Aufgabe 8 
+            // Anwendung Augabe 8c 
+            Console.WriteLine("Wie lang soll deine Array werden?: ");
+            int nummber2 = ReadInt1();
+            int highest1 = MyMath.Calc_lowest(ReadValues(nummber2));
+            Console.WriteLine($"der tiefste Wert ist: {highest1}");
+
+            // Anwendung Aufgabe 8b
+            Console.WriteLine("Wie lang soll deine Array werden?: ");
+            int nummber1 = ReadInt1();
+            int lowest1 = MyMath.Calc_lowest(ReadValues(nummber1));
+            Console.WriteLine($"der tiefste Wert ist: {lowest1}");
+
+            // Anwendung Aufgabe 8a
             int[] array = {1, 2, 3 };
             int average = MyMath.Calc_average(array);
             Console.WriteLine($"arithmetischer Mittelwert: {average}");
 
+            // Anwendung wenn nach Array gefragt wird
             Console.WriteLine("Wie lang soll deine Array werden?: ");
-            int anzahl = ReadInt();
+            int anzahl = ReadInt1();
             int average1 = MyMath.Calc_average(ReadValues(anzahl));
             Console.WriteLine($"arithmetischer Mittelwert: {average1}");
 
