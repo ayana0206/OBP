@@ -1,4 +1,4 @@
-﻿namespace Aufgabe_Eigenschaften
+﻿namespace Aufgaben_Eigenschaften
 {
     internal class Program
     {
