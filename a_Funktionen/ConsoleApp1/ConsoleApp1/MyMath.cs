@@ -36,10 +36,8 @@ namespace ConsoleApp1
             { 
                 return a; 
             }
-            else
-            {
-                return Calc_ggT_r(b, a%b);
-            }                           
+            return Calc_ggT_r(b, a%b);
+                                
         }
     }
 }

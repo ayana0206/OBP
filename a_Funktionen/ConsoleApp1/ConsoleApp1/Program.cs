@@ -28,14 +28,15 @@
                 ShowResult(s, zahl1, zahl2, r);
                 Console.WriteLine("Willst du nochmal berechnen? Ja: 1, Nein:2");
                 int weiter = ReadInt1();
-                if (weiter == 2) 
+                if (weiter == 1) 
                 {
-                    again = false;
+                    again = true;
                 } 
                 else 
                 {
                     Console.WriteLine("Tschüsss");
-                    again = true; 
+                    again = false;
+                    break;
                 }
             } while (again == true);
 
