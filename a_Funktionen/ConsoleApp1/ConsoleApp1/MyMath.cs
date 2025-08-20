@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,6 +39,28 @@ namespace ConsoleApp1
             }
             return Calc_ggT_r(b, a%b);
                                 
+        }
+        
+        // Aufgabe 8a
+        public static int Calc_average(int[] array)
+        {
+            int sum = 0;
+            foreach (int i in array) 
+            {
+                sum += i;
+            }
+            return sum/array.Length;
+        }
+
+        // Aufgabe 8b
+        public static int Calc_lowest(int[] array)
+        {
+            int lowest = 0;
+            foreach (int i in array)
+            { 
+                
+            }
+            return lowest;       
         }
     }
 }

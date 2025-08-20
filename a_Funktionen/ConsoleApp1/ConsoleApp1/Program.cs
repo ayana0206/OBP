@@ -11,7 +11,17 @@
             Console.WriteLine(zahl);
             ShowResult("ggT", 12, 16, MyMath.Calc_ggT(12, 16));
 
-            // Aufgabe 6 
+            // Anwendung Aufgabe 8 
+            int[] array = {1, 2, 3 };
+            int average = MyMath.Calc_average(array);
+            Console.WriteLine($"arithmetischer Mittelwert: {average}");
+
+            Console.WriteLine("Wie lang soll deine Array werden?: ");
+            int anzahl = ReadInt();
+            int average1 = MyMath.Calc_average(ReadValues(anzahl));
+            Console.WriteLine($"arithmetischer Mittelwert: {average1}");
+
+            // Aufgabe 6 + 8a
             bool again = true;
             Console.WriteLine("");
             Console.WriteLine("Wilkommen beim ggT & kgV Rechner");
@@ -50,6 +60,7 @@
         }
 
         // Aufgabe 4
+        // mit Nachfragen
         private static int ReadInt()
         {
             int i = 0;
@@ -62,12 +73,26 @@
             Console.WriteLine("danke");
             return i;
         }
+        // ohne Fage
         private static int ReadInt1()
         {
             int i = 0;
             string s = Console.ReadLine();
             int.TryParse(s, out i);
             return i;
+        }
+
+        // ab Aufgabe 8 
+        private static int[] ReadValues(int anzahl)
+        {
+            int i = 0;
+            int[] werte = new int[anzahl];
+            while (i < anzahl)
+            {
+                Console.WriteLine("Zahl: ");
+                werte[i++] = ReadInt1();    
+            }
+            return werte;
         }
     }
 }
