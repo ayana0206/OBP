@@ -5,6 +5,15 @@
         static void Main(string[] args)
         {
             int[] array = new int[4];
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.WriteLine(array[i]);
+            }
+
+            foreach (int i in array)
+            {
+                Console.WriteLine(i);
+            }
 
             int[] array1 = { 1, 2, 3 };
 
