@@ -9,6 +9,10 @@ namespace Aufgaben_Eigenschaften
 {
     internal class Rectangle
     {
+        public Rectangle() 
+        { 
+
+        }
         // Eine selber implementierte, read-only Eigenschaft
         private string name;
         public string Name 
@@ -43,11 +47,13 @@ namespace Aufgaben_Eigenschaften
             }
         }
         // Eine automatisch implementierte, read-only Eigenschaft.
-        public int Nickname { get; }
+        public string Nickname { get; private set; } // setter könnte auch ganz fehlen ...
 
         // Eine automatisch implementierte, read-write Eigenschaft.
+        public string Description { get; set; }
         
-        // Eine automatisch implementierte, write-only Eigenschaft.
+        // Eine automatisch implementierte, write-only Eigenschaft. 
+        public int note { private get; set; } // nicht möglich ???
 
     }
 }
