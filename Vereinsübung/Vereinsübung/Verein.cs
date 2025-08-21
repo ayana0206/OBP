@@ -24,10 +24,11 @@ namespace Vereinsübung
             Console.WriteLine($"Der Präsident des Vereins {nameV} ist {nameP}. ");
         }
 
-        public void addMannschaft(string nameMannschaft)
+        public void addMannschaft(string nameMannschaft, List<string> nameFS, List<string> namenT)
         {
-            Mannschaft mannschaft = new Mannschaft(nameMannschaft);
+            Mannschaft mannschaft = new Mannschaft(nameMannschaft, nameFS, namenT);
             Console.WriteLine($"Die neue Mannschaft des Vereins {nameV} heisst {nameMannschaft}. ");
+
         }
     }
 }
