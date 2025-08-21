@@ -9,10 +9,20 @@ namespace Aufgaben_Eigenschaften
 {
     internal class Rectangle
     {
-        public Rectangle() 
+        public Rectangle(int width, int heigth) 
         { 
-
+            this.width = width;
+            this.height = heigth;
         }
+        public Rectangle(int width, int heigth, string name) : this(width, heigth)
+        { 
+            this.name = name; 
+        }
+        public Rectangle(int width, int heigth, bool isSquare) :  this(width, heigth)
+        {
+            this.IsSquare = isSquare;
+        }
+
         // Eine selber implementierte, read-only Eigenschaft
         private string name;
         public string Name 
@@ -47,13 +57,22 @@ namespace Aufgaben_Eigenschaften
             }
         }
         // Eine automatisch implementierte, read-only Eigenschaft.
-        public string Nickname { get; private set; } // setter könnte auch ganz fehlen ...
+        public string Nickname { get; } 
 
         // Eine automatisch implementierte, read-write Eigenschaft.
         public string Description { get; set; }
+        public bool IsSquare { get; set; }
         
         // Eine automatisch implementierte, write-only Eigenschaft. 
-        public int note { private get; set; } // nicht möglich ???
+        // nicht möglich -> macht keinen sinn
+
+        // expressio body schreibweise
+        public int Area => 
+
+
+
+
+
 
     }
 }
