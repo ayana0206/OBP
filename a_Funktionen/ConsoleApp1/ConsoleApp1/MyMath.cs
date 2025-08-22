@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class MyMath
+    public class MyMath
     {
         // Aufgabe 3
         public static int Calc_kgV(int a, int b)
@@ -32,6 +32,12 @@ namespace ConsoleApp1
         }
 
         // Aufgabe 7
+        /// <summary>
+        /// Berechnet den grössten gemeinsamen Teiler zwei Zahlen.
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
         public static int Calc_ggT_r(int a, int b)
         {
             if (b == 0)
@@ -43,6 +49,11 @@ namespace ConsoleApp1
         }
 
         // Aufgabe 8a
+        /// <summary>
+        /// Es berechnet den arithmetischen Mittelwert eines Arrays. 
+        /// </summary>
+        /// <param name="array">belibige Zahlen</param>
+        /// <returns>Durchscnitt aller Zahlen</returns>
         public static int Calc_average(int[] array)
         {
             int sum = 0;
@@ -54,6 +65,11 @@ namespace ConsoleApp1
         }
 
         // Aufgabe 8b
+        /// <summary>
+        /// Sucht die kleinste der Zahlen deines Arrays.
+        /// </summary>
+        /// <param name="array">belibige Zahlen</param>
+        /// <returns>die kleinste Zahl</returns>
         public static int Calc_lowest(int[] array)
         {
             if (array.Length == 1)
@@ -95,6 +111,11 @@ namespace ConsoleApp1
             return min;
         }
         // Aufgabe 8c
+        /// <summary>
+        /// Sucht die höchte Zahl deines Arrays.
+        /// </summary>
+        /// <param name="array">beliebige Zahlen</param>
+        /// <returns>die höchste Zahl</returns>
         public static int Calc_highest(int[] array)
         {
             if (array.Length == 1)
