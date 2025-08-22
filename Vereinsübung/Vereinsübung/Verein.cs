@@ -39,12 +39,7 @@ namespace Vereinsübung
             if (mannschaftsList.Count < 10)
             {
                 mannschaftsList.Add(Mannschaft);
-            }
-            
+            }  
         }
-        public
-
-
-
     }
 }
