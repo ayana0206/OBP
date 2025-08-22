@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Vereinsübung
 {
-    internal class Praesident
+    internal class Physiotherapeut
     {
-        public Praesident(string name)
+        public Physiotherapeut(string name)
         {
             this.Name = name;
         }
 
         public string Name { get; private set; }
-        
-        public void VertragUnterschreiben()
+
+        public void Massieren(string name)
         {
-            Console.WriteLine($" Ich {Name} als Präsident unterschreibe den Vertrag.");
+            Console.WriteLine($"Ich {Name} massiere {name}.");
         }
     }
 }

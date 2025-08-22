@@ -4,7 +4,6 @@
     {
         static void Main(string[] args)
         {
-            Verein FCRJ = new Verein("Fussball Club Rapperswil-Jona", "Thomas");
             List<string> feldspieler = new List<string>()
             {
                 "Felix",
@@ -23,7 +22,11 @@
                 "Alex",
                 "Mirco"
             };
-            FCRJ.addMannschaft("u21M", feldspieler, torwarte);
+            
+            
+            
+            Verein FCRJ = new Verein("Fussball Club Rapperswil-Jona", "Thomas");
+            FCRJ.setMannschaft("Wir sind die Besten!", feldspieler, torwarte);
 
         }
     }

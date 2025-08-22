@@ -14,5 +14,10 @@ namespace Vereinsübung
         }
 
         public string nameT { get; private set; }
+
+        public void BallHalten()
+        {
+            Console.WriteLine($"Der Torwart {nameT} hat den Ball werfolgreich gehalten :)");
+        }
     }
 }

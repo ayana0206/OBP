@@ -8,14 +8,14 @@ namespace Vereinsübung
 {
     internal class Mannschaft
     {
-        public Mannschaft(string nameMannschaft, List<string> nameFS, List<string> namenT)
+        public Mannschaft(string Motto, List<string> namenFS, List<string> namenT)
         {
-            this.nameM = nameMannschaft;
-            this.addFeldspieler(nameFS);
+            this.Motto = Motto;
+            this.addFeldspieler(namenFS);
             this.addTorwart(namenT);
         } 
         
-       public string nameM { get; private set; }
+       public string Motto { get; private set; }
 
 
         // Feldspieler
@@ -37,8 +37,14 @@ namespace Vereinsübung
         {
             foreach (string name in namenT)
             {
-                Torwart torwart = new Torwart(name);
+                torwartList.Add(new Torwart(name));
             }
+        }
+
+
+        public void TorSchiessen() 
+        { 
+
         }
     }
 }
