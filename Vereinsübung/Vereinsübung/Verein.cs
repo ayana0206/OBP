@@ -20,7 +20,7 @@ namespace Vereinsübung
         
         public void setPräsident(string nameP)
         {
-            Präsident präsident = new Präsident(nameP);
+            Praesident präsident = new Praesident(nameP);
             Console.WriteLine($"Der Präsident des Vereins {nameV} ist {nameP}. ");
         }
 

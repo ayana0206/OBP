@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Vereinsübung
 {
-    internal class Präsident
+    internal class Praesident
     {
-        public Präsident(string name)
+        public Praesident(string name)
         {
             this.name = name;
         }

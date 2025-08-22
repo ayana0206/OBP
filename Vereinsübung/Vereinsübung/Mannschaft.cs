@@ -22,9 +22,11 @@ namespace Vereinsübung
         private List<Feldspieler> feldspielerList = new List<Feldspieler>();       
         public void addFeldspieler(List<string> namenFS)
         {
+
             foreach ( string name in namenFS)
             {
                 feldspielerList.Add(new Feldspieler(name));
+
             }
             
         }
