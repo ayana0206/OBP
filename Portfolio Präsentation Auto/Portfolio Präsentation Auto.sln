@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portfolio Präsentation Auto", "Portfolio Präsentation Auto\Portfolio Präsentation Auto.csproj", "{047470B3-EE88-4A7C-9615-C867525AA748}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{047470B3-EE88-4A7C-9615-C867525AA748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{047470B3-EE88-4A7C-9615-C867525AA748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{047470B3-EE88-4A7C-9615-C867525AA748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{047470B3-EE88-4A7C-9615-C867525AA748}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA74809F-CE35-4F64-AD3B-39C5C75BD3CE}
+	EndGlobalSection
+EndGlobal
