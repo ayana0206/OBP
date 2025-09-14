@@ -6,6 +6,7 @@
         {
             Console.WriteLine("Hallo und Wilkommen bei der Fima 'GeoShapes'.");
             Console.WriteLine("");
+            // Es werden 2 Rechtecke und ein Kreis instanziert wenn ein Formbehälter erstellt wird.
             Formbehaelter formbehaelter1 = new Formbehaelter(20, 30, 44, 33, 10);
             Console.WriteLine("");
 
@@ -25,7 +26,7 @@
             formbehaelter1.DreieckCalcFlaeche(1);
             Console.WriteLine("");
 
-            // Kreis1 Masse berechnen
+            // Masse berechnen Kreis1
             formbehaelter1.KreisCalcUmfang(1);
             formbehaelter1.KreisCalcFlaeche(1);
             Console.WriteLine("");

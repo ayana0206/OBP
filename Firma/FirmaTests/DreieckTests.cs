@@ -21,5 +21,11 @@ namespace Firma.Tests
             // Assert
             Assert.AreEqual(12, res);
         }
+
+        [TestMethod()]
+        public void CalcFlaecheTest()
+        {
+            Assert.Fail();
+        }
     }
 }

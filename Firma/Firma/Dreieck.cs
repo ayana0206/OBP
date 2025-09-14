@@ -32,7 +32,7 @@ namespace Firma
             }
         }
         /// <summary>
-        /// Berechnet den Umfang des Dreiecks.
+        /// Berechnet den Umfang des gleichseitigen  Dreiecks.
         /// </summary>
         /// <returns>Umfang Dreieck</returns>
         public int CalcUmfang()
@@ -42,7 +42,7 @@ namespace Firma
             return umfang;
         }
         /// <summary>
-        /// Berechnet die Flaeche des Dreiecks.
+        /// Berechnet die Flaeche des gleichseitigen Dreiecks.
         /// </summary>
         /// <returns>Flaeche Dreieck</returns>
         public double CalcFlaeche()
