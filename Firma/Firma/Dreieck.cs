@@ -26,7 +26,7 @@ namespace Firma
         /// <param name="laenge">Seitenlaenge</param>
         public void SetLinien(int laenge)
         {
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 3; i++) 
             {
                 arrayLinie[i] = new Linie(laenge);
             }
