@@ -8,7 +8,7 @@ namespace Firma
 {
     internal class Formbehaelter
     {
-        private Rechteck[] arrayRechteck = new Rechteck[2];
+        private Rechteck[] arrayRechteck = new Rechteck[2];             
         private Dreieck[] arrayDreieck = new Dreieck[4];
         private Kreis[] arrayKreis = new Kreis[3];
 
@@ -28,7 +28,7 @@ namespace Firma
         }
         public void RechteckCalcFlaeche(int nummer)
         {
-            Console.WriteLine($"Die Fläche des Rechtecks Nummer {nummer} wird berechnet.");
+            Conso le.WriteLine($"Die Fläche des Rechtecks Nummer {nummer} wird berechnet.");
             arrayRechteck[nummer - 1].CalcFlaeche();
         }
 
