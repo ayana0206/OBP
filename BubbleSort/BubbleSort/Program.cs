@@ -1,4 +1,4 @@
-﻿namespace BubbleSort
+﻿namespace Sort
 {
     internal class Program
     {
@@ -8,12 +8,20 @@
 
             var sorter = new BubbleSort(list);
 
+            Console.WriteLine("BubbleSort");
             foreach (int i in sorter.Sort())
             {
                 Console.WriteLine(i);
             }
 
-            
+            var sorter2 = new Quicksort();
+
+            Console.WriteLine("Quicksort");
+            foreach (int i in sorter2.Sort())
+            {
+                Console.WriteLine(i);
+            }
+
 
         }
     }
