@@ -14,7 +14,7 @@
                 Console.WriteLine(i);
             }
 
-            var sorter2 = new Quicksort();
+            var sorter2 = new Quicksort(list);
 
             Console.WriteLine("Quicksort");
             foreach (int i in sorter2.Sort())

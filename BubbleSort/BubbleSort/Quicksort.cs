@@ -8,7 +8,13 @@ namespace BubbleSort
 {
     internal class Quicksort
     {
+        private IList<int> listToSort;
 
+        Quicksort(IList<int> listToSort)
+        {
+            this.listToSort = listToSort;
+            Sort(listToSort, listToSort[0], listToSort.Count - 1);
+        }
         private void Sort(IList<int> array, int start, int end)
         {
             if (end <= start) return; // best case
